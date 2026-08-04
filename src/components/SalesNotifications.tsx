@@ -4,7 +4,6 @@ type Sale = { name: string; city: string };
 
 // Prova social. Ajuste/adicione nomes e cidades à vontade.
 const SALES: Sale[] = [
-  { name: "Vitor H.", city: "Florianópolis, SC" },
   { name: "Amanda R.", city: "São Paulo, SP" },
   { name: "Lucas M.", city: "Belo Horizonte, MG" },
   { name: "Juliana S.", city: "Curitiba, PR" },
@@ -43,6 +42,7 @@ const SALES: Sale[] = [
   { name: "Fábio T.", city: "Palmas, TO" },
   { name: "Sabrina C.", city: "Maringá, PR" },
   { name: "Igor N.", city: "Volta Redonda, RJ" },
+  { name: "Vitor H.", city: "Florianópolis, SC" },
   { name: "Juliana A.", city: "Caruaru, PE" },
   { name: "Wesley M.", city: "Montes Claros, MG" },
   { name: "Carla R.", city: "Chapecó, SC" },

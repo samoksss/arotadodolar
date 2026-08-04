@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
-import logoAsset from "@/assets/logo.png.asset.json";
+import logoAsset from "@/assets/logo.png";
 
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -23,7 +23,7 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:h-18">
         <a href="#" className="flex items-center gap-2.5">
           <img
-            src={logoAsset.url}
+            src={logoAsset}
             alt="A Rota do Dólar"
             className="h-9 w-auto sm:h-10"
             width="40"

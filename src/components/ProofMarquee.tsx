@@ -1,14 +1,14 @@
 import { cn } from "@/lib/utils";
-import prova1 from "@/assets/prova-faturamento.png.asset.json";
-import prova3 from "@/assets/prova-3.png.asset.json";
-import prova5 from "@/assets/prova-5.png.asset.json";
-import prova6 from "@/assets/prova-6.png.asset.json";
+import prova1 from "@/assets/prova-faturamento.png";
+import prova3 from "@/assets/prova-3.png";
+import prova5 from "@/assets/prova-5.png";
+import prova6 from "@/assets/prova-6.png";
 
 const PROOFS = [
-  { url: prova1.url, alt: "Print do painel de pagamentos com total recebido em dólar" },
-  { url: prova3.url, alt: "Comprovante de resgate de R$ 1.499,40" },
-  { url: prova5.url, alt: "Comprovante de resgate de R$ 1.934,11" },
-  { url: prova6.url, alt: "Comprovante de resgate de R$ 2.325,16" },
+  { url: prova1, alt: "Print do painel de pagamentos com total recebido em dólar" },
+  { url: prova3, alt: "Comprovante de resgate de R$ 1.499,40" },
+  { url: prova5, alt: "Comprovante de resgate de R$ 1.934,11" },
+  { url: prova6, alt: "Comprovante de resgate de R$ 2.325,16" },
 ];
 
 export function ProofMarquee({ size = "lg" }: { size?: "lg" | "sm" }) {

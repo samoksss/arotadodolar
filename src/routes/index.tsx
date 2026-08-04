@@ -10,7 +10,7 @@ import { Reveal } from "@/components/Reveal";
 import { ModulesCarousel } from "@/components/ModulesCarousel";
 import { ProofMarquee } from "@/components/ProofMarquee";
 import { Header } from "@/components/Header";
-import logoAsset from "@/assets/logo.png.asset.json";
+import logoAsset from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -330,7 +330,7 @@ function Index() {
       <footer className="border-t border-border px-5 py-10">
         <div className="mx-auto flex max-w-4xl flex-col items-center gap-4 text-center text-sm text-muted-foreground">
           <img
-            src={logoAsset.url}
+            src={logoAsset}
             alt="A Rota do Dólar"
             className="h-10 w-auto opacity-90"
             width="40"

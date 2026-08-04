@@ -6,14 +6,14 @@ import {
   type CarouselApi,
 } from "@/components/ui/carousel";
 import { cn } from "@/lib/utils";
-import mod1 from "@/assets/modulo-1.png.asset.json";
-import mod2 from "@/assets/modulo-2.png.asset.json";
-import mod3 from "@/assets/modulo-3.png.asset.json";
-import mod4 from "@/assets/modulo-4.png.asset.json";
+import mod1 from "@/assets/modulo-1.png";
+import mod2 from "@/assets/modulo-2.png";
+import mod3 from "@/assets/modulo-3.png";
+import mod4 from "@/assets/modulo-4.png";
 
 const MODULES = [
   {
-    image: mod1.url,
+    image: mod1,
     alt: "Capa do módulo Introdução",
     step: "ETAPA 01 · INTRODUÇÃO",
     lessons: [
@@ -24,7 +24,7 @@ const MODULES = [
     ],
   },
   {
-    image: mod2.url,
+    image: mod2,
     alt: "Capa do módulo Iniciante",
     step: "ETAPA 02 · INICIANTE",
     lessons: [
@@ -35,7 +35,7 @@ const MODULES = [
     ],
   },
   {
-    image: mod3.url,
+    image: mod3,
     alt: "Capa do módulo Intermediário",
     step: "ETAPA 03 · INTERMEDIÁRIO",
     lessons: [
@@ -45,7 +45,7 @@ const MODULES = [
     ],
   },
   {
-    image: mod4.url,
+    image: mod4,
     alt: "Capa do módulo Avançado",
     step: "ETAPA 04 · AVANÇADO",
     lessons: [

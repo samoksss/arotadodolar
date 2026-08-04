@@ -98,7 +98,7 @@ export function SalesNotifications() {
 
           <div className="min-w-0">
             <p className="text-[0.8rem] leading-snug text-foreground">
-              <span className="font-semibold">{sale.name}</span> acabou de garantir o Pack
+              <span className="font-semibold">{sale.name}</span> acabou de entrar na Rota 🚀
             </p>
             <p className="mt-0.5 text-[0.7rem] text-muted-foreground">
               {sale.city} · há {minutes} {minutes === 1 ? "minuto" : "minutos"}

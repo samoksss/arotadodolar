@@ -10,6 +10,7 @@ import { Reveal } from "@/components/Reveal";
 import { ModulesCarousel } from "@/components/ModulesCarousel";
 import { ProofMarquee } from "@/components/ProofMarquee";
 import { Header } from "@/components/Header";
+import { SalesNotifications } from "@/components/SalesNotifications";
 import logoAsset from "@/assets/logo.png";
 
 export const Route = createFileRoute("/")({
@@ -71,6 +72,7 @@ function Index() {
   return (
     <>
       <Header />
+      <SalesNotifications />
       <main className="overflow-x-hidden pt-16 sm:pt-[4.5rem]">
       {/* HERO */}
       <section className="halo relative px-5 pt-20 pb-16 sm:pt-28 sm:pb-24">

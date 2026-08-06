@@ -289,11 +289,6 @@ function Index() {
                 cupom LANCAMENTO15
               </p>
 
-              <p className="mt-7 text-sm leading-relaxed text-muted-foreground">
-                No checkout você ainda pode adicionar o Guia de Inglês Funcional (glossário + frases
-                prontas pra atender gringo sem saber inglês) por só R$19,90.
-              </p>
-
               <p className="mt-7 rounded-2xl bg-secondary/60 p-5 text-sm leading-relaxed text-foreground">
                 Esse preço vale só por 3 dias, junto do lançamento do ebook. Passou, o cupom expira.
                 Sem prorrogação - porque senão perde a graça.

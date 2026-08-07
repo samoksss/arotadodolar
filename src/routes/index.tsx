@@ -26,7 +26,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Do zero ao primeiro dólar: scripts prontos, portfólio com IA e prospecção por texto. R$97 (ou R$82,45 com cupom).",
+          "Do zero ao primeiro dólar: scripts prontos, portfólio com IA e prospecção por texto. R$97, pagamento único.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -93,7 +93,7 @@ function Index() {
               <ScrollCta>QUERO FECHAR MEU PRIMEIRO GRINGO</ScrollCta>
             </div>
             <p className="mt-5 text-sm font-medium text-gold">
-              R$97 - ou R$82,45 com o cupom de lançamento
+              R$97 · pagamento único, acesso vitalício
             </p>
           </Reveal>
         </div>
@@ -283,21 +283,33 @@ function Index() {
                 <ProofMarquee size="sm" />
               </div>
 
-              <p className="mt-6 text-lg text-muted-foreground line-through">R$97</p>
-              <p className="font-display text-5xl font-bold text-gold sm:text-6xl">R$82,45</p>
-              <p className="mt-4 inline-block rounded-full border border-gold/40 px-4 py-1.5 text-xs font-semibold tracking-wider text-gold">
-                cupom LANCAMENTO15
+              <p className="mt-8 text-sm uppercase tracking-wider text-muted-foreground">
+                Acesso completo por
               </p>
+              <p className="font-display text-5xl font-bold text-gold sm:text-6xl">R$97</p>
+              <p className="mt-2 text-sm text-muted-foreground">pagamento único · acesso vitalício</p>
 
-              <p className="mt-7 rounded-2xl bg-secondary/60 p-5 text-sm leading-relaxed text-foreground">
-                Esse preço vale só por 3 dias, junto do lançamento do ebook. Passou, o cupom expira.
-                Sem prorrogação - porque senão perde a graça.
+              <div className="mx-auto mt-8 max-w-sm space-y-2.5 text-left text-sm text-foreground">
+                <p className="flex items-start gap-2">
+                  <span className="text-primary">✓</span> Curso completo, do zero ao primeiro dólar
+                </p>
+                <p className="flex items-start gap-2">
+                  <span className="text-primary">✓</span> Templates de Prospecção Ativa + Fluxograma
+                </p>
+                <p className="flex items-start gap-2">
+                  <span className="text-primary">✓</span> Planilha de Controle de Leads
+                </p>
+              </div>
+
+              <p className="mt-8 rounded-2xl bg-secondary/60 p-5 text-sm leading-relaxed text-foreground">
+                Pensa comigo: um único cliente gringo já paga esse valor de volta várias vezes. R$97 é o
+                que você investe uma vez pra abrir uma renda em dólar que fica com você pra sempre.
               </p>
 
               <div className="mt-9 flex justify-center">
                 <Button variant="cta" size="cta" asChild>
                   <a href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer">
-                    GARANTIR MINHA VAGA COM 15% OFF
+                    QUERO ENTRAR NA ROTA
                   </a>
                 </Button>
               </div>
